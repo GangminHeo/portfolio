@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@media ( max-width: 600px ) {
+    h2 {
+     color: #40ff6c;
+    }
+
+    iframe {
+        width: 300px;
+        height: 169px;
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: rgb(56, 54, 58);
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+    }
+
+    footer h4 {
+        float: none;
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+
+
+   }
+
+   @media ( min-width: 600px ) and ( max-width: 1400px ) {
+
+    footer {
+        width: 50%;
+    }
+
+   }
